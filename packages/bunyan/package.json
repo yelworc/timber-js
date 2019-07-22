@@ -17,6 +17,7 @@
   "types": "dist/es6/index.d.ts",
   "sideEffects": false,
   "files": [
+    "tsconfig.*",
     "src",
     "dist"
   ],

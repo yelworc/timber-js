@@ -4,6 +4,7 @@
   "scripts": {
     "lint": "prettier -c \"packages/**\"",
     "lint:save": "prettier --write \"packages/**\"",
+    "prepare": "cd packages/bunyan && npm i --only=dev && npm i --only=prod && npm run build",
     "test": "jest"
   },
   "devDependencies": {
